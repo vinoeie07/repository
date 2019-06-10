@@ -16,6 +16,7 @@ public class HomeController {
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public ModelAndView save(@ModelAttribute User user) {
 		ModelAndView modelAndView = new ModelAndView();
+		System.out.println("Home Controller");
 		modelAndView.setViewName("user-data");
 		modelAndView.addObject("user", user);
 		return modelAndView;
