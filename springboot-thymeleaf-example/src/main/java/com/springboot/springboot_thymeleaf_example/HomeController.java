@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 public class HomeController {
 	@RequestMapping("/")
 	public String index() {
+		System.out.println("Index mapping");
 		return "index";
 	}
 
