@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
 public class HomeController {
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("Index mapping");
+		System.out.println("Index mapping 12345");
 		return "index";
 	}
 
