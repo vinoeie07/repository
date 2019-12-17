@@ -11,7 +11,7 @@ import org.springframework.stereotype.Controller;
 public class HomeController {
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("Index mapping 12345 with Auto trigger updat");
+		System.out.println("Index mapping 12345 with ngrok");
 		return "index";
 	}
 
